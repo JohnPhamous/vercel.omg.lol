@@ -33,6 +33,10 @@ export default function Head() {
       <meta name="twitter:title" content={TITLE} />
       <meta name="twitter:description" content={DESCRIPTION} />
       <meta name="twitter:image" content={OG_STATIC_IMAGE} />
+      <meta content="Species" name="twitter:label1"></meta>
+      <meta content="🦎 luhsub" name="twitter:data1"></meta>
+      <meta content="Rarity" name="twitter:label2"></meta>
+      <meta content="▲100" name="twitter:data2"></meta>
     </>
   );
 }
