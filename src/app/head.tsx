@@ -16,11 +16,11 @@ export default function Head() {
 
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta itemProp="image" content={OG_STATIC_IMAGE} />
+      {/* <meta itemProp="image" content={OG_STATIC_IMAGE} /> */}
       {/* <meta property="og:logo" content={`${DOMAIN}/logo.png`}></meta> */}
       <meta property="og:title" content={TITLE} />
       <meta property="og:description" content={DESCRIPTION} />
-      <meta property="og:image" content={OG_STATIC_IMAGE} />
+      {/* <meta property="og:image" content={OG_STATIC_IMAGE} /> */}
 
       <meta property="og:image" content={OG_ANIMATED_IMAGE}></meta>
 
